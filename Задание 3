@@ -1,0 +1,16 @@
+#a
+x = int(input())
+y = int()
+if x<2:
+  y = x
+else:
+  y = 2
+print('у = ',y)
+#b
+x = int(input())
+y = int()
+if x<3:
+  y = -x
+else:
+  y = -3
+print('у = ',y)
