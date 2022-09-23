@@ -1,0 +1,10 @@
+mr = int(input('Месяц рождения: '))
+yr = int(input('Год рождения: '))
+m = int(input('Месяц расчёта: '))
+y = int(input('Год расчёта: '))
+yf = int(y - yr)
+mf = int(m - mr)
+if mf < 1:
+  yf = yf - 1;
+  mf = mf + 12
+print('Прожито лет - ', yf, ', месяцев - ', mf)
