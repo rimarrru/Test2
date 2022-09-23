@@ -1,0 +1,8 @@
+n = int(input())
+if n > 12: 
+  x = n % 12 +1
+elif n == 12:
+  x = 2
+else:
+  x=n+1
+print('сейчас ',x,' месяц')
