@@ -1,0 +1,15 @@
+Time_Left = int(input('Время в минутах: '))
+x = Time_Left // 5
+l = Time_Left - (x * 5)
+if l == 0:
+    print('Красный')
+elif l == 1:
+    print('Зелёный')
+elif l == 2:
+    print('Зелёный')
+elif l == 3:
+    print('Зелёный')
+elif l == 4:
+    print('Красный')
+elif l == 5:
+    print('Красный')
